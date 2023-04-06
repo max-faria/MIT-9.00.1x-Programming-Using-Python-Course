@@ -6,9 +6,6 @@ Created on Thu Mar 16 16:29:49 2023
 """
 
 def search(L,e):
-    """
-    Search in each element of the list L and return True if the element e is on that list.
-    """
     for i in range(len(L)): #the code runs trwoght all the list searching for the number
         if L[i] == e:
             return True
